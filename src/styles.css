@@ -1,0 +1,97 @@
+body {
+  font  : 23px sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: medium;
+}
+h1{
+  color: rgb(55, 53, 59);
+  padding: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.map-form {
+  display: flex;
+  justify-content: center;
+}
+
+.map-container {
+  height: 500px;
+  width: 700px;
+  border-radius: 20px;
+  margin-right: 50px;
+}
+
+form {
+  font-size:22px;
+  padding:10%;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  border-radius: 5px;
+  width: fit-content;
+  background-color:rgb(241, 237, 240) ;
+}
+
+select {
+  min-width: 220px;
+  margin  : 8px;
+  font         : bold .6em sans-serif;
+  box-sizing: content-box;
+  align-self: center;
+  text-align: center;
+  padding: 6px;
+  border: 0.5px dashed #0b2a58;
+  border-radius: 5px;
+  background: rgb(218, 215, 217);
+  cursor: pointer;
+  color: rgb(40, 38, 48);
+}
+
+select:hover {
+  box-shadow: 1px 10px 20px rgb(208, 205, 205);
+}
+
+input {
+  align-self: center;
+  border  : none;
+  margin  : 8px;
+  padding      : 10px;
+  font         : bold .6em sans-serif;
+  border-bottom      : 2px solid #333;
+  border-radius: 5px;
+  color: rgb(40, 38, 48);
+}
+
+input:focus {
+  outline: None;
+}
+
+input:hover {
+  color:black ;
+  box-shadow: 1px 10px 20px rgb(208, 205, 205);
+  /* padding-right: 20px; */
+}
+
+button {
+  align-self: center;
+  padding      : 10px;
+  margin  : 8px;
+  font         : bold .6em sans-serif;
+  border       : 1px solid #333;
+  border-radius: 5px;
+  background   : none;
+  cursor       : pointer;
+  max-width: fit-content;
+  color:rgb(40, 38, 48);
+}
+
+button:hover {
+  outline   : none;
+  background: rgb(67, 12, 91);
+  color   : #FFF;
+  box-shadow: 1px 10px 20px rgb(208, 205, 205);
+}
